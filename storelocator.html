@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Nike Website</title>
+</head>
+
+<body>
+
+    <!-- NAVBAR START -->
+    <section class="navbar__section">
+        <div class="container">
+            <nav class="navbar navbar-expand-sm navbar-light bg-transparent">
+                <a class="navbar-brand" href="#"> <img src="./images/nike_logo.png" alt="logo"></a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                        <li class="nav-item facebook_link">
+                            <a class="nav-link" href="#">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item twitter_link">
+                            <a class="nav-link" href="#">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- NAVBAR ENDS -->
+
+
+
+    <!-- herosection start -->
+    <section class="hero_section mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card information__card">
+                        <div class="card-body">
+                            <div class="card_heading">
+                                <span>
+                                    <h3 class="card-title">Nike Factory Store</h3>
+                                    <p class="card-text">Locate The Nearest Store(s)</p>
+                                </span>
+                                <span>
+                                    <button class="btn">
+                                        <i class="fa-sharp fa-solid fa-map-location-dot"></i>
+                                    </button>
+                                </span>
+                            </div>
+
+                            <button class="btn current_loc_btn">
+                                <i class="fa-sharp fa-solid fa-street-view me-1"></i> USE MY CURRENT LOCATION
+                            </button>
+
+                            <p class="or_seprator">--OR--</p>
+
+                            <div class="select_boxes">
+                                <select class="form-select mb-3" aria-label="state">
+                                    <option selected>--Select State--</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+
+                                <select class="form-select mb-3" aria-label="state">
+                                    <option selected>--Select City--</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+
+                                <select class="form-select mb-3" aria-label="state">
+                                    <option selected>--Select Locality--</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+
+                                <select class="form-select mb-3" aria-label="state">
+                                    <option selected>--Select Radius--</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+
+                            <div class="search_btn_sec">
+                                <button class="btn search_btn">
+                                    <i class="fa-solid fa-magnifying-glass"></i> Search
+                                </button>
+                                <div class="str_counts">15 Stores Found</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="image_section">
+                        <img src="./images/hero_img.jpg" alt="hero__img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- herosection end -->
+
+    <!-- precaution section start -->
+    <div class="precaution_section m-5 text-center ">
+        <div class="container">
+            <h2 style="font-size: 23px; margin: 15px 0 25px 0;">
+                WE TAKE COVID-19 PRECAUTIONARY MEASURES
+            </h2>
+            <center>
+                <div class="precaution_measures d-flex px-5">
+                    <div class="hand_sanitizer m-auto">
+                        <img src="./images/hand-sanitizer.png" alt="hand-sanitizer">
+                        <p>Frequient Sanitization</p>
+                    </div>
+                    <div class="patient m-auto">
+                        <img src="./images/patient.png" alt="patient">
+                        <p>STAFF SAFTEY</p>
+                    </div>
+                    <div class="gathering m-auto">
+                        <img src="./images/gathering.png" alt="gathering">
+                        <P>SOCIAL DISTANCING</P>
+                    </div>
+                    <div class="disinfection m-auto">
+                        <img src="./images/disinfection.png" alt="disinfection">
+                        <P>PREMISES DISINFECTION</P>
+                    </div>
+                    <div class="contactless m-auto">
+                        <img src="./images/contactless.png" alt="contactless">
+                        <P>CONTACTLESS PAYMENT & DELIVERY</P>
+                    </div>
+            </center>
+        </div>
+    </div>
+    <!-- precaution section end -->
+
+    <!-- nike store location section start -->
+    <div class="loction_section">
+        <div class="container">
+            <h2>NIKE STORE NEAR YOU</h2>
+            <div class="card_section ">
+                <div class="row ">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12  pb-3">
+                        <div class="card w-100 h-100 ">
+                            <div class="card-body">
+                                <h5 class="card-title"><i class="fa-solid fa-sign-hanging"></i> <span
+                                        style="color:rgb(230, 141, 15);">Nike Factory Store</span></h5>
+                                <div class="card-text">
+                                    <p><i class="fa-solid fa-location-dot"></i> Shop No 3, Block C, Ground Floor, DB
+                                        Zone, Western Express Highway, Mira Road, Thane, Maharashtra 401107</p>
+                                    <p><i class="fa-solid fa-thumbtack"></i> Mira Road, Thane</p>
+                                    <p>
+                                        <i class="fa-solid fa-phone"></i> <a href="tel:+91 9876543210">+91
+                                            9876543210</a>
+                                    </p>
+                                    <p><i class="fa-solid fa-clock"></i> 10:30 AM to 09:30 PM</p>
+                                    <p>CLOSE</p>
+                                </div>
+                                <div class="row button_section">
+                                    <div class="col-lg-12 col-md-12 col-sm-3  col-6 calling_btn_sec d-none">
+                                        <a href="#" class="w-100 btn calling-btn btn-warning"> <i
+                                                class="fa-solid fa-phone"></i> call</a>
+                                    </div>
+                                    <div class="col-lg-4 col-md-5 col-sm-3 col-6 ">
+                                        <a href="#" class="btn btn-warning w-100"> <i class="fa-solid fa-globe"></i>
+                                            WEBSITE</a>
+                                    </div>
+                                    <div class="col-lg-8 col-md-7 col-sm-6 col-12">
+                                        <a href="#" class="btn btn-secondary w-100 "> <i
+                                                class="fa-solid fa-location-arrow"></i>
+                                            GET DIRECTION</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 pb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><i class="fa-solid fa-sign-hanging"></i> <span
+                                        style="color:rgb(226, 135, 7);">Nike Factory Store</span></h5>
+                                <div class="card-text">
+                                    <p class="card_styfa"><i class="fa-solid fa-location-dot"></i> Unit No 16, Ground
+                                        Floor, Block A, R Mall, LBS Marg, Mulund West, Mumbai, Maharashtra 400080
+                                    </p>
+                                    <p><i class="fa-solid fa-thumbtack"></i> Mulund West, Mumbai</p>
+                                    <p><i class="fa-solid fa-phone"></i> <a href="tel:+91 9876543210">+91 9876543210</a>
+                                    </p>
+                                    <p><i class="fa-solid fa-clock"></i> 10:30 AM to 09:30 PM</p>
+                                    <p style="color: green;">OPEN NOW</p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6 calling_btn_sec d-none">
+                                        <a href="#" class="w-100 btn calling-btn btn-warning"> <i
+                                                class="fa-solid fa-phone"></i> call</a>
+                                    </div>
+                                    <div class="col-6 col-sm-4">
+                                        <a href="#" class="btn btn-warning w-100"> <i class="fa-solid fa-globe"></i>
+                                            WEBSITE</a>
+                                    </div>
+                                    <div class="col-12  col-sm-8">
+                                        <a href="#" class="btn btn-secondary w-100 "> <i
+                                                class="fa-solid fa-location-arrow"></i>
+                                            GET DIRECTION</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 pb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><i class="fa-solid fa-sign-hanging"></i> <span
+                                        style="color:rgb(226, 135, 7);">Nike Factory Store</span></h5>
+                                <div class="card-text">
+                                    <p><i class="fa-solid fa-location-dot"></i> Shop No 3, Meena CHS, Paud Road,
+                                        Kothrud, Pune, Maharashtra 411038
+                                    </p>
+                                    <p><i class="fa-solid fa-thumbtack"></i> Kothrud, Pune</p>
+                                    <P><i class="fa-solid fa-phone"></i> <a href="tel:+91 9876543210">+91 9876543210</a>
+                                    </P>
+                                    <p><i class="fa-solid fa-clock"></i> 10:30 AM to 09:30 PM</p>
+                                    <p style="color: green;">OPEN NOW</p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6 calling_btn_sec d-none">
+                                        <a href="#" class="w-100 btn calling-btn btn-warning"> <i
+                                                class="fa-solid fa-phone"></i> call</a>
+                                    </div>
+                                    <div class="col-6 col-sm-4">
+                                        <a href="#" class="btn btn-warning w-100"> <i class="fa-solid fa-globe"></i>
+                                            WEBSITE</a>
+                                    </div>
+                                    <div class="col-12  col-sm-8">
+                                        <a href="#" class="btn btn-secondary w-100 "> <i
+                                                class="fa-solid fa-location-arrow"></i>
+                                            GET DIRECTION</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 pb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><i class="fa-solid fa-sign-hanging"></i> <span
+                                        style="color:rgb(226, 135, 7);">Nike Factory Store</span></h5>
+                                <div class="card-text">
+                                    <p><i class="fa-solid fa-location-dot"></i> Plot No 71, Gowri Plaza, PT Colony,
+                                        Tirumalgiri, Secunderabad, Hyderabad, Telangana 500015
+                                    </p>
+                                    <p><i class="fa-solid fa-thumbtack"></i> Secunderabad, Hyderabad</p>
+                                    <p><i class="fa-solid fa-phone"></i> <a href="tel:+91 9876543210">+91 9876543210</a>
+                                    </p>
+                                    <p><i class="fa-solid fa-clock"></i> 10:30 AM to 09:30 PM</p>
+                                    <p style="color: green;">OPEN NOW</p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6 calling_btn_sec d-none">
+                                        <a href="#" class="w-100 btn calling-btn btn-warning"> <i
+                                                class="fa-solid fa-phone"></i> call</a>
+                                    </div>
+                                    <div class="col-6 col-sm-4">
+                                        <a href="#" class="btn btn-warning w-100"> <i class="fa-solid fa-globe"></i>
+                                            WEBSITE</a>
+                                    </div>
+                                    <div class="col-12  col-sm-8">
+                                        <a href="#" class="btn btn-secondary w-100 "> <i
+                                                class="fa-solid fa-location-arrow"></i>
+                                            GET DIRECTION</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 pb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><i class="fa-solid fa-sign-hanging"></i> <span
+                                        style="color:rgb(226, 135, 7);">Nike Factory Store</span></h5>
+                                <div class="card-text">
+                                    <p><i class="fa-solid fa-location-dot"></i> Shop No 427, 27th Main Road, 1st Sector,
+                                        HSR Layout, Bengaluru South, Bengaluru, Karnataka 560102
+                                    </p>
+                                    <p><i class="fa-solid fa-thumbtack"></i> Bengaluru South, Bengaluru</p>
+                                    <p><i class="fa-solid fa-phone"></i> <a href="tel:+91 9876543210">+91 9876543210</a>
+                                    </p>
+                                    <p><i class="fa-solid fa-clock"></i> 10:30 AM to 09:30 PM</p>
+                                    <p style="color: green;">OPEN NOW</p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6 calling_btn_sec d-none">
+                                        <a href="#" class="w-100 btn calling-btn btn-warning"> <i
+                                                class="fa-solid fa-phone"></i> call</a>
+                                    </div>
+                                    <div class="col-6 col-sm-4">
+                                        <a href="#" class="btn btn-warning w-100"> <i class="fa-solid fa-globe"></i>
+                                            WEBSITE</a>
+                                    </div>
+                                    <div class="col-12  col-sm-8">
+                                        <a href="#" class="btn btn-secondary w-100 "> <i
+                                                class="fa-solid fa-location-arrow"></i>
+                                            GET DIRECTION</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 pb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><i class="fa-solid fa-sign-hanging"></i> <span
+                                        style="color:rgb(226, 135, 7);">Nike Factory Store</span></h5>
+                                <div class="card-text">
+                                    <p><i class="fa-solid fa-location-dot"></i> MIG 13, Ground Floor, JT Koppal, 1st
+                                        Phase, Chamaraja Mohalla, Kuvempu Nagara, Mysore, Karnataka 570023
+                                    </p>
+                                    <p><i class="fa-solid fa-thumbtack"></i> Kuvempu Nagara, Mysore</p>
+                                    <p><i class="fa-solid fa-phone"></i> <a href="tel:+91 9876543210">+91 9876543210</a>
+                                    </p>
+                                    <p><i class="fa-solid fa-clock"></i> 10:30 AM to 09:30 PM</p>
+                                    <p style="color: green;">OPEN NOW</p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6 calling_btn_sec d-none">
+                                        <a href="#" class="w-100 btn calling-btn btn-warning"> <i
+                                                class="fa-solid fa-phone"></i> call</a>
+                                    </div>
+                                    <div class="col-6 col-sm-4">
+                                        <a href="#" class="btn btn-warning w-100"> <i class="fa-solid fa-globe"></i>
+                                            WEBSITE</a>
+                                    </div>
+                                    <div class="col-12  col-sm-8">
+                                        <a href="#" class="btn btn-secondary w-100 "> <i
+                                                class="fa-solid fa-location-arrow"></i>
+                                            GET DIRECTION</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 pb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><i class="fa-solid fa-sign-hanging"></i> <span
+                                        style="color:rgb(226, 135, 7);">Nike Factory Store</span></h5>
+                                <div class="card-text">
+                                    <p><i class="fa-solid fa-location-dot"></i> Unit No 45/2B, Sri Ramanjenaya Complex,
+                                        Marathahalli Main Road, Marathahalli, Bengaluru North, Bengaluru, Karnataka
+                                        560037
+                                    </p>
+                                    <p><i class="fa-solid fa-thumbtack"></i> Bengaluru North, Bengaluru</p>
+                                    <p><i class="fa-solid fa-phone"></i> <a href="tel:+91 9876543210">+91 9876543210</a>
+                                    </p>
+                                    <p><i class="fa-solid fa-clock"></i> 10:30 AM to 09:30 PM</p>
+                                    <p style="color: green;">OPEN NOW</p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6 calling_btn_sec d-none">
+                                        <a href="#" class="w-100 btn calling-btn btn-warning"> <i
+                                                class="fa-solid fa-phone"></i> call</a>
+                                    </div>
+                                    <div class="col-6 col-sm-4">
+                                        <a href="#" class="btn btn-warning w-100"> <i class="fa-solid fa-globe"></i>
+                                            WEBSITE</a>
+                                    </div>
+                                    <div class="col-12  col-sm-8">
+                                        <a href="#" class="btn btn-secondary w-100 "> <i
+                                                class="fa-solid fa-location-arrow"></i>
+                                            GET DIRECTION</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- nike store location section end -->
+
+    <!-- pagination section start -->
+    <div class="pagination_section">
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="./index.html">1</a></li>
+                <li class="page-item"><a class="page-link" href="./page2.html">2</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- pagination section end -->
+
+    <!-- footer section start -->
+    <div class="footer_section pt-4">
+        <div class="container">
+            <center><img src="./images/nike-logo-png.png" alt=""></center>
+            <div class="footer d-flex justify-content-between">
+                <p>© Copyright 2023 Nike, Inc.</p>
+                <p>Powered By: LocoWiz</p>
+            </div>
+        </div>
+    </div>
+    <!-- footer section end -->
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery-3.6.3.min.js"></script>
+</body>
+
+</html>

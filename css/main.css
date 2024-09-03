@@ -1,0 +1,189 @@
+/* NAVBAR CSS START */
+.navbar__section {
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.navbar__section .facebook_link i {
+  margin-right: 20px;
+}
+
+.navbar__section .facebook_link i,
+.navbar__section .twitter_link i {
+  font-size: 25px;
+}
+.navbar__section .facebook_link a:hover {
+  color: #4267b2 !important ;
+}
+.navbar__section .twitter_link a:hover {
+  color: #1da1f2 !important ;
+}
+/* facebook color code #4267B2 */
+/* twitter color code #1DA1F2 */
+/* NAVBAR CSS ENDS */
+
+/* HERO SECTION CSS START */
+.hero_section .image_section img {
+  width: 100%;
+  height: 471px;
+  object-fit: cover;
+}
+
+.hero_section .information__card {
+  background-color: #f1f1f1;
+  border: none;
+}
+
+.hero_section .information__card .card_heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero_section .information__card .card_heading h3 {
+  font-size: 24px;
+}
+.hero_section .information__card .card_heading p {
+  font-size: 16px;
+}
+.hero_section .information__card .card_heading button {
+  background-color: #fa5400;
+  color: white;
+  font-size: 20px;
+  border-radius: 0%;
+}
+
+.hero_section .information__card .card_heading button:hover {
+  background-color: #505050;
+}
+
+.hero_section .information__card .current_loc_btn {
+  background-color: #505050;
+  color: white;
+  font-size: 15px;
+  padding: 10px 0;
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 0;
+  border: 1px solid #505050;
+}
+.hero_section .information__card .current_loc_btn:hover {
+  background-color: #fff;
+  color: black;
+}
+.hero_section .information__card .or_seprator {
+  text-align: center;
+  color: #fa5400;
+  margin: 15px 0;
+}
+
+.hero_section .information__card .search_btn_sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero_section .information__card .search_btn_sec .search_btn {
+  border-radius: 0;
+  background-color: #fa5400;
+  color: white;
+  width: 160px;
+  border: 1px solid #fa5400;
+}
+.hero_section .information__card .search_btn_sec .search_btn:hover {
+  background-color: white;
+  color: #fa5400;
+}
+
+.hero_section .information__card .search_btn_sec .str_counts {
+  border-bottom: 2px dashed #fa5400;
+  border-top: 2px dashed #fa5400;
+  font-weight: 700;
+  padding: 2px 0;
+}
+
+/* #f1f1f1 */
+/* HERO SECTION CSS ENDS */
+/* precaution_section css start */
+.precaution_section {
+  border-top: 2px dashed black;
+  border-bottom: 2px dashed #000;
+  background: yellow;
+}
+.precaution_section .precaution_measures img {
+  border: 1px solid black;
+  width: 60px;
+  height: 60px;
+  border-radius: 32px;
+  padding: 6px;
+  background-color: white;
+}
+
+/* precaution_section css end */
+
+/* loction_section CSS START */
+.loction_section h2{
+  background-color: #505050;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  padding: 15px;
+  margin-bottom: 25px;
+}
+.loction_section .row .card-body{
+font-size: 15px;
+}
+.loction_section .row .card-body i{
+margin-right: 10px;
+}
+.card_styfa{
+  display: flex;
+  justify-content: baseline;
+}
+/* loction_section CSS END */
+
+/* pagination section css start */
+.pagination_section .pagination{
+  justify-content: center;
+}
+.pagination_section .pagination .page-item .page-link{
+  padding: 20px;
+    color: black;
+}
+/* pagination section css end */
+
+/* footer section css start */
+.footer_section{
+  border: 1px solid grey;
+  background-color: #505050;
+  color: white;
+}
+/* footer section css end */
+/* MEDIA QUIRES */
+
+@media screen and (max-width: 991px) {
+  .hero_section .image_section img {
+    height: auto;
+  }
+}
+@media screen and (max-width:767px) {
+  .loction_section .calling_btn_sec{
+    display: block !important;
+  }
+}
+@media screen and (max-width:600px) {
+  .precaution_measures {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hero_section .information__card .search_btn_sec {
+    display: block;
+  }
+  .hero_section .information__card .search_btn_sec .search_btn {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .hero_section .information__card .search_btn_sec .str_counts {
+    text-align: center;
+  }
+}
